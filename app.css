@@ -1,0 +1,107 @@
+html {
+	font-family: sans-serif;
+}
+
+body {
+	margin:0;
+	overflow:hidden;
+}
+
+.page {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100vw;
+	height:100vh;
+}
+
+.page {
+	transform:translate(100%);
+	transition:0.5s transform ease;	
+}
+
+.page[data-page="entry"] {
+	transform:translate(-100%);
+	background-image: url("..\\..\\screens\\Entry.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: right;
+}
+
+.page[data-page="govPage"] {
+	transform:translate(-100%);
+	background-image: url("..\\..\\screens\\Gov_1.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.page[data-page="healthPage"] {
+	transform:translate(-100%);
+	background-image: url("..\\..\\screens\\Health.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.page[data-page="optionsPage"] {
+	transform:translate(-100%);
+	background-image: url("..\\..\\screens\\Gov_2.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.page.active {
+	transform:translate(0);
+}
+
+.button {
+	background:transparent;
+	position:relative;
+	overflow:hidden;
+	position: absolute;
+	cursor: pointer;
+}
+
+#govBut {
+	top: 62px;
+	left: 0px;
+	width: 360px;
+	height: 250px;
+}
+
+#healthBut {
+	top: 62px;
+	right: 0px;
+	width: 370px;
+	height: 250px;
+}
+
+#optionsBut {
+	bottom: 0px;
+	left: 0px;
+	width: 360px;
+	height: 120px;
+}
+
+#backBut1 {
+	top: 0px;
+	right: 0px;
+	width: 100px;
+	height: 100px;
+}
+
+#backBut2 {
+	top: 0px;
+	right: 0px;
+	width: 100px;
+	height: 100px;
+}
+
+#backBut3 {
+	top: 0px;
+	left: 0px;
+	width: 150px;
+	height: 100px;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link type="text/css" rel="stylesheet" href="css/app.css" />
+  <title>Project</title>
+  <script src="js/touche-min.js" charset="utf-8"></script>
+  <script src="js/zepto.min.js" charset="utf-8"></script>
+  <script src="js/app.js" charset="utf-8"></script>
+</head>
+
+<body>
+  <div class="page active" data-page="entry">
+    <div class="button" id="govBut" data-js-page="govPage"></div>
+    <div class="button" id="healthBut" data-js-page="healthPage"></div>
+  </div>
+
+  <div class="page" data-page="govPage">
+    <div class="button" id="optionsBut" data-js-page="optionsPage"></div>
+    <div class="button" id="backBut1" data-js-page="entry"></div>
+  </div>
+
+  <div class="page" data-page="optionsPage">
+    <div class="button" id="backBut2" data-js-page="entry"></div>
+  </div>
+
+  <div class="page" data-page="healthPage">
+    <div class="button" id="backBut3" data-js-page="entry"></div>
+  </div>
+</body>
+
+</html>
