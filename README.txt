@@ -12,3 +12,7 @@ really encourage you to send an email to acote@kaon.com so we can get on track.
 
 Thanks again,
 the Kaon team
+
+For this project, I followed the example that was included in the folder. I took a different approach with
+the buttons and made them clear, overlaying them over the existing shapes on the images. I also made the 
+cursor change to a pointer when hovering over the buttons so the user can easily tell that they are clickable.
