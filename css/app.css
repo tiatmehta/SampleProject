@@ -22,7 +22,7 @@ body {
 
 .page[data-page="entry"] {
 	transform:translate(-100%);
-	background-image: url("..\\..\\screens\\Entry.png");
+	background-image: url("..\\screens\\Entry.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	text-align: right;
@@ -30,7 +30,7 @@ body {
 
 .page[data-page="govPage"] {
 	transform:translate(-100%);
-	background-image: url("..\\..\\screens\\Gov_1.png");
+	background-image: url("..\\screens\\Gov_1.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -38,7 +38,7 @@ body {
 
 .page[data-page="healthPage"] {
 	transform:translate(-100%);
-	background-image: url("..\\..\\screens\\Health.png");
+	background-image: url("..\\screens\\Health.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -46,7 +46,7 @@ body {
 
 .page[data-page="optionsPage"] {
 	transform:translate(-100%);
-	background-image: url("..\\..\\screens\\Gov_2.png");
+	background-image: url("..\\screens\\Gov_2.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
